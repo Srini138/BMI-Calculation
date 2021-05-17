@@ -26,9 +26,6 @@ click==7.1.2
 colorama==0.4.3
 colorlover==0.3.0
 comtypes==1.1.7
-conda==4.9.2
-conda-build==3.20.5
-conda-verify==3.4.2
 contextlib2==0.6.0.post1
 cryptography==2.8
 cufflinks==0.17.3
