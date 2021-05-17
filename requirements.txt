@@ -2,7 +2,6 @@ absl-py==0.11.0
 alabaster==0.7.12
 apyori==1.1.2
 argh==0.26.2
-asn1crypto @ file:///tmp/build/80754af9/asn1crypto_1596577642040/work
 astroid==2.4.1
 astropy==4.0.2
 astunparse==1.6.3
