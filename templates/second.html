@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Result</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="col-md-12 text-center">
+  		{% if data == 0 %}
+  			<p>Extremely Weak</p>
+  		{% elif data == 1 %}
+  			<p>Weak</p>
+  		{% elif data == 2 %}
+  			<p>Normal</p>
+  		{% elif  data == 3 %}
+  			<p>Over-Weight</p>
+  		{% elif data == 4 %}
+  			<p>Obesity</p>
+  		{% else %}
+  			<p>Extreme Weight</p>
+  		{% endif %}
+  	</div>
+</body>
+</html>
